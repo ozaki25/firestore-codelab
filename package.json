@@ -1,6 +1,15 @@
 {
   "name": "firestore-codelab",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": ".",
   "license": "MIT"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fmt": "prettier --write scripts/* styles/*"
+  },
+  "author": "",
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "prettier": "^1.5.3"
+  }
 }
